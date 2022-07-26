@@ -1,0 +1,38 @@
+.header, .hero, .body, .ber, .footer{
+	margin-bottom: 10px;
+	background-color: #A9A9A9;
+}
+.box{
+	margin: 20px 0;
+	min-height: 100px;
+	font-size: 30px;
+	color:white;
+	border: 10px solid green;
+	background-color:#80ff80;
+}
+.three{
+	background-color:#bfff00;
+}
+.five{
+	background-color:red;
+}
+
+.hero_bg{
+	background-color: #DB7093;
+}
+.body_bg{
+	background-color: #FF6347;
+}
+
+/*form start*/
+
+
+
+h1{	
+	color: green;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+/*form end*/

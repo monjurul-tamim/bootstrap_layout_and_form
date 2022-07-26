@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap layout</title>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+
+    <section class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2 col-sm-3 col-12">
+            <div class="box">1.1</div>
+          </div>
+          <div class="col-md-7 col-sm-6 col-7">
+            <div class="box">1.2</div>
+          </div>
+          <div class="col-md-3 col-sm-3 col-5">
+            <div class="box">1.3</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 hero_bg">
+            <div class="row">
+              <div class="col-md-8 d-sm-block d-none">
+                <div class="box">2.1</div>
+              </div>
+              <div class="col-md-4">
+                <div class="box">2.2</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-md-block d-none">
+          <div class="box three">3</div>
+        </div>
+      </div>
+      </div>
+    </section>
+
+    <section class="body">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 body_bg">
+            <div class="row">
+              <div class="col-md-4 col-sm-9">
+                <div class="box">4.1</div>
+              </div>
+              <div class="col-sm-3 d-md-none d-block">
+                <div class="box three">3</div>
+              </div>
+              <div class="col-md-8 col-sm-12">
+                <div class="box">4.1</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-md-block d-none">
+            <div class="box five">5</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ber d-md-none d-sm-block d-none">
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-12">
+          <div class="box five">5</div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="box">6</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+   <div class="container">
+     <h1>Sign Up form</h1>
+
+   <form>
+
+     <div class="mb-3">
+      <label for="f_name" class="form-label" >First Name</label>
+      <input type="text" class="form-control f_name" id="f_name" name="f_name" placeholder="First Name">
+      <div id="emailHelp" class="form-text">Provide your name correctly</div>
+     </div>
+
+      <div class="mb-3">
+      <label for="l_name" class="form-label" >Last Name</label>
+      <input type="text" class="form-control l_name" id="l_name" name="l_name" placeholder="Last Name">
+      <div id="emailHelp" class="form-text">Provide your name correctly</div>
+     </div>
+
+     <div class="mb-3">
+      <label for="email" class="form-label" >Email address</label>
+      <input type="email" class="form-control email" id="email" name="email" placeholder="Enter a valid email address">
+      <div id="emailHelp" class="form-text">Provide a valid Email</div>
+     </div>
+
+    <div class="mb-3">
+      <label for="password1" class="form-label">Create new Password</label>
+      <input type="password1" class="form-control password1" id="password1" name="password1" placeholder="ABCabc123!@#%">
+      <div id="emailHelp" class="form-text">Password must be strong and 8 character</div>
+    </div>
+
+      <div class="mb-3">
+      <label for="password2" class="form-label">Confirm new Password</label>
+      <input type="password2" class="form-control password2" id="password2" name="password2" placeholder="ABCabc123!@#%">
+      <div id="emailHelp" class="form-text">Password must be strong and 8 character</div>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+    </div>
+
+    <button type="reset" class="btn btn-danger">Reset</button>
+    <button type="submit" class="btn btn-primary">Submit</button> 
+
+  </form>
+
+  </div>
+
+
+    <!-- Js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
